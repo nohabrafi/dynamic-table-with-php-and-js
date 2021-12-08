@@ -9,6 +9,9 @@
    
     <body>
         <h1>Prozesswerte Tabelle</h1>
+        <button type="button" onclick="start()">Start</button> <!-- start update -->
+        <button type="button" onclick="stop()">Stop</button> <!-- stop update -->
+
     <?php
 
         // mit datenbank verbinden
@@ -30,10 +33,7 @@
         } else {
             print "<script>console.log('Query successful!')</script>";
         }
-    ?>
-       <button type="button" onclick="start()">Start</button> <!-- start update -->
-       <button type="button" onclick="stop()">Stop</button> <!-- stop update -->
-    <?php
+   
         // Daten in Tabelle anzeigen
         /*
         <th></th> -> head der Tabelle
