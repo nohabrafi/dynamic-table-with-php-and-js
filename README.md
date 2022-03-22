@@ -4,3 +4,6 @@ in order to get fresh data. If the data returns, the table that has been created
 
 The update.php file creates new random values and updates these in the database. After that, it returns the fresh data in XML format which can be processed
 by the javascript. 
+
+
+![1](https://user-images.githubusercontent.com/93218724/159562609-e25279ed-557a-403d-93d7-0d5b656b8af0.png)
